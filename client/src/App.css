@@ -1,38 +1,53 @@
-.App {
+html {
+  font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #fff;
+}
+
+h1 {
+  margin: 5px;
+  font-size: 60px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 30px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 24px;
+  text-align: left;
+  margin: 30px;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 5px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+body {
+  width: 100%;
+  padding: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+display: block;
+margin: 0px;
+max-width:30%;
+max-height:30%;
+padding: 50px;
+padding-left: 500px;
 }

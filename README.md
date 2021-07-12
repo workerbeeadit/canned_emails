@@ -6,8 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+## Milestones
+V0 - A simple canned emails implementation. The user can easily see what's a canned email, copy and paste said email manually, and be on their way.
 
+V1 - A better UI where users can click into canned email headings (aligned to the left) to see the content (aligned to the right) and manually copy.
+
+V2 - If the user clicks anywhere near the body, the email template (body) should directly be copied to their clipboard
+
+V3 - Users should have an option to send emails from their email client when they click on the email template. 
+
+### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
